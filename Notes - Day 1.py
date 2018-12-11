@@ -93,3 +93,47 @@ r1 = range(11)
 list(r1)  # convert to list
 list(range(1,11))
 list(range(1,102,10))  # range(start,stop,stride i.e. step by)
+
+# Joining lists of strings with 
+r5 = "rock paper scissors"
+"*".join(r5)
+Out[19]: 'rock*paper*scissors'
+
+# Dictionary
+# Use curly braces {}
+ myd = {"name":"kris","city":"Dallas","team":"bears"}
+ myd['fave number'] = 10
+ myd['city']
+ myd.values()
+ myd.keys()
+ myd['cars'] = [1,2,3,4,5]
+ myd['cars'][1]
+ myd.get('country','default value if key does not exist')
+ # 'default value if key does not exist'
+# can be nested dictionary
+ 
+ 
+ # *args and **kwargs
+ *args: arbitrary number of args to function
+ 
+ 
+ #################################### Flow Control
+ False objects: None, 0, 0.0, [], ""
+ bool(None) == False
+ bool(0) == False
+ bool(0.0) == False
+ bool([]) == False
+ # no switch in python
+ 
+ all() and any() - check if any are true
+ 
+ while (expression is True):
+     # code to repeat
+     if (expression is true):
+        # code 
+ 
+ 
+ 
+ 
+ 
+ 
