@@ -1,0 +1,89 @@
+XPYI301210 TXDA-1
+marryettam@onlc.com
+10:30 - 10:45
+12:00 PM - 1:00 PM
+2:30 -  2:45
+
+When importing libraries, a lot of times I see this kind of thing:
+import os
+import os.path
+Isn't this redundant?  Why is it necessary to import os.path if I've already imported all of os?
+
+it is not necessary, just common practice, or you can just import os.path if all you need is to check for a file , create a new one, etc . we have this in an upcoming module where we walk through what it can do but conventionally people do import both. 
+
+i thnk from a memory standpoint, under the hood, importing the specific os.path is supposed to make it faster even with importing os
+
+but if all you need is os.path thats all you have  to import
+
+ok thanks so much.  So it's best to call both from a memory perspective
+
+Ok thanks
+
+So you can nest dictionaries within each other?  cool
+
+Random questions for later:
+- what about pip install...I see this a lot
+- why doesn't a range show up in variable explorer?
+- how do I set the working directory in Spyder to go to the directory I want, i.e. C:/python/py_intro
+
+I'm not sure I understand the solution to all_true
+Since return True is at the bottom of the function, why doesn't it always return True, regardless of what was set previously inside the for loop?
+
+
+"return" ends the function. so once it returns anything, anywhere, that's it. 
+
+ASO if it  has not returned false inside the loop, then it will retrun true once the loop is done
+
+Aha ok.  That's very helpful.  I'm used to return not being evaluating until the end of the function, but in Python it soudn slike it acts like a "break" command
+
+yes
+
+btw
+spyder is weird with ranges. to get it it to show up, you click the gear icon at the top right of the variable explorer and uncheck "exclude unsupported" 
+
+pip install is a way to install packages that are not currently on your system. it connects to a repository where all registered packages live, and you can either install a new package or update an existing one....packages house the modules you import
+
+if you are interested in what sorts of packages are out there you can check out the python package index or pypi
+
+if you are using anaconda, it comes with its own package installer: conda install  (at the command line), does the same thing. 
+
+your working directory should be set when you change that directory at teh top of the spyder window. 
+
+ok that;'s really helpful thanks! 
+The path at the top is correct, but when I hit the open file at the top left, it opens a different folder, and I'm trying to set the default location for that open file 
+
+according to this it shoould be using the py_intro folder
+
+yeah I tried that but still is using this other folder...no idea...
+
+very strange, but you can always open files from tehe file explorer as well. 
+
+thats's true...ok no problem- thanks again!
+
+
+
+Why not use time.time() instead of time.perf_counter()?
+
+
+Works for me on Chrome
+
+Thanks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
