@@ -10,6 +10,8 @@ def get_departures():
     return departures
 
 def get_departure(line):
+    print(line)
+    return(line)
     '''Return a tuple containing two datetime.datetime objects.'''
 
     return (planned_departure, actual_departure)
