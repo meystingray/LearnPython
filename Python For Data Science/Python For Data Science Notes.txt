@@ -1,2 +1,0 @@
-XPYS301213 TXDA-1
-Python Data Science Notes
